@@ -1,106 +1,101 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Game shop</title>
-
-    <link rel="stylesheet" href="./main.css">
-
-
-
+    <title>Document</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
 </head>
 
+<header>
+
+</header>
+
 <body>
-    <header>
-        <div class="container">
-            <h1>Game shop</h1>
-            <nav>
-                <ul> <!--lista nao ordenana-->
-                    <li>
-                        <a href="#about">Sobre a loja</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Contatos</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <section id="about">
-        <div class="container">
-            <img class="store-front" src="./images/loja.jpg" alt="Fachada da loja">
-            <div>
-                <h2>Sobre a loja</h2> <br>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam et sint suscipit aspernatur iusto
-                    vel necessitatibus similique repudiandae error cumque, optio doloremque ducimus repellendus animi,
-                    corporis id amet. Eaque, provident.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit vero quasi, incidunt
-                    temporibus mollitia odio aliquam tempore ullam expedita accusantium cum accusamus illum veniam
-                    laboriosam, adipisci itaque, dignissimos provident id.
-                </p>
-                <ul class="brands-list">
-                    <li> <img src="./images/nintendo.png" alt="nintendo"></li>
-                    <li> <img src="./images/xbox.png" alt="xbox"></li>
-                    <li> <img src="./images/playstation.png" alt="olaystation"> </li>
-                </ul>
+
+    <div class="container carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="imagens/ai-7114793_1280.jpg" alt="">
+            </div>
+            <div class="carousel-item">
+                <img src="imagens/artificial-intelligence-3706562_1280.jpg" alt="">
+            </div>
+            <div class="carousel-item">
+                <img src="imagens/banner-904884_1280.jpg" alt="">
+            </div>
+            <div class="carousel-item">
+                <img src="imagens/woman-3597101_1280.jpg" alt="">
             </div>
         </div>
-    </section>
-    <section id="contact">
-        <div class="container">
-            <h2>Contato</h2>
-            <div class="contact-methods">
-                <div>
-                    <h3>Fale conosco</h3>
-                    <form>
-                        <input type="text" placeholder="Seu none" required />
-                        <input type="email" placeholder="Seu email" required />
-                        <input type="tel" placeholder="Seu telefone (opicional)" />
-                        <textarea placeholder="Sua mensagem" required></textarea>
-                        <button type="submit">Enviar</button>
-                    </form>
+    </div>
+
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+            <!-- row-cols-1 - restringe os cards em uma coluna em telas pequenas row-cols-md-2 -restringe os cards em duas colunas em telas medias row-cols-lg-3 -restringe para tres colunas em telas grandes -->
+            <div class="col">
+                <div class="card">
+                    <div class="card-header">
+                        <h5>Titulo</h5>
+                    </div>
+                    <div class="card-body">
+                        <img src="imagens/banner-904884_1280.jpg" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, fuga corrupti reprehenderit
+                            porro sed
+                            quia nemo ipsum quam quis tempora culpa modi possimus. Veniam hic dolorum quasi enim officia
+                            alias.
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <!-- <button><a href="#">Ler mais</a></button> -->
+                        <button class="btn btn-primary">Ler mais</button>
+                    </div>
                 </div>
-                <div>
-                    <h3>Nos acompanhe</h3>
-                    <ul class="social-links">
-                        <li>
-                            <a href="#" title="Siga-nos no Instagram">
-                                <img src="./images/instagram.png" alt="Logo do instagram">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" title="Siga-nos no Facebook">
-                                <img src="./images/facebook.png" alt="Logo do facebook">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" title="Siga-nos no YouTube">
-                                <img src="./images/youtube.png" alt="Logo do youtube">
-                            </a>
-                        </li>
-                    </ul>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-header">
+                        <h5>Titulo</h5>
+                    </div>
+                    <div class="card-body">
+                        <img src="imagens/artificial-intelligence-3706562_1280.jpg" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, fuga corrupti reprehenderit
+                            porro sed
+                            quia nemo ipsum quam quis tempora culpa modi possimus. Veniam hic dolorum quasi enim officia
+                            alias.
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-primary">Ler mais</button>
+                    </div>
                 </div>
-                <div>
-                    <h3>Venha até nós</h3>
-                    <p>
-                        Rua Abc N° 123 - html 5
-                    </p>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-header">
+                        <h5>Titulo</h5>
+                    </div>
+                    <div class="card-body">
+                        <img src="imagens/woman-3597101_1280.jpg" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, fuga corrupti reprehenderit
+                            porro sed
+                            quia nemo ipsum quam quis tempora culpa modi possimus. Veniam hic dolorum quasi enim officia
+                            alias.
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-primary">Ler mais</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
-    <footer>
-        <div class="container">
-            <p>
-                &copy; Games shop - todos os direitos reservados 2024
-            </p>
-        </div>
-    </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>
